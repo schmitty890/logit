@@ -1,12 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": [
-    "google",
-    "prettier",
-    "prettier/react",
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
+  "extends": ["google", "eslint:recommended", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaVersion": 2016,
     "sourceType": "module",
@@ -14,7 +8,7 @@
       "jsx": true
     }
   },
-  "plugins": ["prettier", "react", "jsx-a11y", "import", "graphql"],
+  "plugins": ["react", "jsx-a11y", "import", "graphql"],
   "env": {
     "browser": true,
     "es6": true,
@@ -33,11 +27,13 @@
     "no-plusplus": "off",
     "no-shadow": "warn",
     "no-underscore-dangle": "warn",
-    "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
+    "no-unused-expressions": [
+      "error",
+      { "allowShortCircuit": true, "allowTernary": true }
+    ],
     "no-nested-ternary": "off",
     "no-unused-vars": "warn",
     "prefer-destructuring": "off",
-    "prettier/prettier": ["error"],
     "react/jsx-uses-vars": "error"
   },
   "overrides": [
