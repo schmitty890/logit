@@ -48,45 +48,16 @@ class Share extends Component {
             color: rgb(0, 0, 0);
           `}
         >
-          Share if you liked it:
+          Connect if you'd like:
         </p>
-        <div style={{ color: "blue" }}>
-          <a target="_blank" href="google.com">
-            <FaLinkedin size={100} />
+        <div>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/jason-schmitt-aa974932/"
+          >
+            <FaLinkedin size={25} style={{ color: "#4875B4" }} />
           </a>
         </div>
-        <h3>
-          {" "}
-          Lets go for a <FaLinkedin />?{" "}
-        </h3>
-        {url && (
-          <>
-            <FacebookShareButton
-              url={url}
-              quote={`Read ${post.title} by ${post.author}`}
-              className="social-icon"
-            >
-              <FacebookIcon size={32} round />
-            </FacebookShareButton>
-            <LinkedinShareButton
-              url={url}
-              quote={`Read ${post.title} by ${post.author}`}
-              className="social-icon"
-            >
-              <LinkedinIcon size={32} round />
-            </LinkedinShareButton>
-            <TwitterShareButton
-              url={url}
-              title={`Read ${post.title} by ${post.author}`}
-              className="social-icon"
-            >
-              <TwitterIcon size={32} round />
-            </TwitterShareButton>
-            <RedditShareButton url={url} className="social-icon">
-              <RedditIcon size={32} round />
-            </RedditShareButton>
-          </>
-        )}
       </Container>
     );
   }
