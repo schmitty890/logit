@@ -13,7 +13,7 @@ import {
   RedditIcon
 } from "react-share";
 import styled from "styled-components";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaYoutube, FaInstagram } from "react-icons/fa";
 
 const Container = styled.div`
   margin: 1rem 0 5rem;
@@ -50,14 +50,32 @@ class Share extends Component {
         >
           Connect if you'd like:
         </p>
-        <div>
+        <span>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/jason-schmitt-aa974932/"
           >
             <FaLinkedin size={25} style={{ color: "#4875B4" }} />
           </a>
-        </div>
+        </span>
+        <span
+          css={`
+            display: none;
+          `}
+        >
+          <a target="_blank" href="#">
+            <FaYoutube size={25} style={{ color: "#FF3333" }} />
+          </a>
+        </span>
+        <span
+          css={`
+            display: none;
+          `}
+        >
+          <a target="_blank" href="#">
+            <FaInstagram size={25} style={{ color: "#FF3333" }} />
+          </a>
+        </span>
       </Container>
     );
   }
