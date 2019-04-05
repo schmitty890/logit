@@ -13,6 +13,7 @@ import {
   RedditIcon
 } from "react-share";
 import styled from "styled-components";
+import { FaLinkedin } from "react-icons/fa";
 
 const Container = styled.div`
   margin: 1rem 0 5rem;
@@ -49,6 +50,15 @@ class Share extends Component {
         >
           Share if you liked it:
         </p>
+        <div style={{ color: "blue" }}>
+          <a target="_blank" href="google.com">
+            <FaLinkedin size={100} />
+          </a>
+        </div>
+        <h3>
+          {" "}
+          Lets go for a <FaLinkedin />?{" "}
+        </h3>
         {url && (
           <>
             <FacebookShareButton
