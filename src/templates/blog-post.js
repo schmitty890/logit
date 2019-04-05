@@ -13,6 +13,8 @@ class BlogPostTemplate extends React.Component {
     const author = this.props.data.site.siteMetadata.author;
     const { previous, next } = this.props.pageContext;
 
+    console.log(post.frontmatter.title);
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />

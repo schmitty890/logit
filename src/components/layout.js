@@ -79,6 +79,23 @@ const Content = styled.div`
 `;
 
 class Layout extends Component {
+  // componentDidMount() {
+  //   console.log('ayo');
+
+  //   // var elem = `<div id="disqus_thread"></div>`;
+  //   var div = document.createElement("div");
+  //   div.style.width = "100px";
+  //   div.style.height = "100px";
+  //   div.style.background = "red";
+  //   div.style.color = "white";
+  //   div.attr.id = "disqus_thread";
+  //   div.innerHTML = "Hello";
+  //   var javascript = document.createElement("script");
+  //   // script.src =
+
+  //   document.body.appendChild(div);
+  // }
+
   render() {
     const { children } = this.props;
     return (
