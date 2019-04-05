@@ -72,16 +72,6 @@ class Share extends Component {
             >
               <TwitterIcon size={32} round />
             </TwitterShareButton>
-            <EmailShareButton
-              url={url}
-              subject={`Read ${post.title} by ${post.author}`}
-              body={`${post.excerpt}
-                Read more at ${url}
-              `}
-              className="social-icon"
-            >
-              <EmailIcon size={32} round />
-            </EmailShareButton>
             <RedditShareButton url={url} className="social-icon">
               <RedditIcon size={32} round />
             </RedditShareButton>
