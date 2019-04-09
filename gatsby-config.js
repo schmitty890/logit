@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: process.env.CI ? `/${name}` : `/jasonlogsit`,
   siteMetadata: {
-    title: `www.jasonlogs.com`,
+    title: `www.jasonschmitt.io`,
     description: `SUP`,
     author: `Jason Schmitt`,
     authorTagline: "Front End Web Engineer",
