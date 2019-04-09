@@ -4,7 +4,7 @@ module.exports = {
     title: `www.jasonlogs.com`,
     description: `SUP`,
     author: `Jason Schmitt`,
-    authorTagline: "Full Stack Web Engineer",
+    authorTagline: "Front End Web Engineer",
     social: {
       twitter: `agneymenon`
     }
