@@ -109,7 +109,7 @@ One problem with our code is that John Doe does not actually provide us with his
 {{#each updates}}
   <li>
     <h2>{{name}}</h2>
-    <p>{{{age}}}</p>
+    <p>{{age}}</p>
     <span>
       Job: {{job}}
       {{#if location}}
