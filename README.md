@@ -113,7 +113,7 @@ You need to know JavaScript and you need to know it inside out. The more senior 
 
 - [x] Execution context, especially lexical scope and closures.
 - [x] Hoisting, function & block scoping and function expressions & declarations.
-      Binding – specifically call, bind, apply and lexical this.
+- [x] Binding – specifically call, bind, apply and lexical this.
 - [ ] Object prototypes, constructors and mixins.
 - [ ] Composition and high order functions.
 - [ ] Event delegation and bubbling.
