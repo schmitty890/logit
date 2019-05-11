@@ -1,6 +1,6 @@
 ---
 title: "Destructuring JavaScript Objects"
-date: "2019-04-08"
+date: "2018-11-08"
 ---
 
 Destructuring is a big part of ES6. The more modern tech tutorials I go through, _especially react ones_, I see destructuring everywhere.
@@ -55,7 +55,7 @@ const person = {
   state: "New Jersey",
   links: {
     web: {
-      blog: "jasonschmitt.io",
+      blog: "blog.jasonschmitt.com",
       portfolio: "thejasonschmitt.com",
       anotherLink: "anotherlink.com"
     }

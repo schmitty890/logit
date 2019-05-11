@@ -1,6 +1,6 @@
 ---
 title: "Closures in JavaScript"
-date: "2019-04-20"
+date: "2019-01-20"
 ---
 
 A closure is a combination of a function and the environment within which that function was declared. The environment consists of any local variables that were in scope at the time the closure was created. In javascript all functions form closures. In other languages without closures, the local variables within a function only exist for the duration of that functions execution.

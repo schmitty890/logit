@@ -1,6 +1,6 @@
 ---
 title: "Hoisting in JavaScript"
-date: "2019-04-21"
+date: "2019-01-27"
 ---
 
 With JavaScript hoisting, variables are hoisted to the top of their containing scope.

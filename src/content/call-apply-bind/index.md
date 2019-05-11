@@ -1,6 +1,6 @@
 ---
 title: "Call, Apply and Bind"
-date: "2019-04-23"
+date: "2019-03-13"
 ---
 
 In JavaScript, the functions `call`, `apply` and `bind` seem to be doing the same thing. But sometimes it is confusing on how they really work.

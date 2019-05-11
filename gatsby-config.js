@@ -2,11 +2,11 @@ module.exports = {
   pathPrefix: process.env.CI ? `/${name}` : `/jasonlogsit`,
   siteMetadata: {
     title: `blog.jasonschmitt.com`,
-    description: `SUP`,
+    description: `Web Thoughts of Jason Schmitt`,
     author: `Jason Schmitt`,
     authorTagline: "Front End Web Engineer",
     social: {
-      twitter: `agneymenon`
+      twitter: ``
     }
   },
   plugins: [

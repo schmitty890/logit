@@ -1,6 +1,6 @@
 ---
 title: "Client Side Handlebar Templates"
-date: "2019-04-15"
+date: "2018-11-17"
 ---
 
 In todays world, webapps rely more on JavaScript to create dynamic user interfaces. Some sites may only need jQuery for simple dom maniuplation and insertion, others may need more of a templating engine especially if your page is updating data consistantly.

@@ -1,6 +1,6 @@
 ---
 title: "Callbacks"
-date: "2019-04-22"
+date: "2019-02-12"
 ---
 
 Callback functions in JavaScript are also called higher order functions.

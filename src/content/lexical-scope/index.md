@@ -1,6 +1,6 @@
 ---
 title: "Lexical Scope (this)"
-date: "2019-04-19"
+date: "2018-12-14"
 ---
 
 Lexical this! In JavaScript, every function brings its own `this` context. In complex JavaScript applications, this can become very confusing, very quickly when you have functions inside of functions inside of functions.
