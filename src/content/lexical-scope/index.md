@@ -5,7 +5,7 @@ date: "2018-12-14"
 
 Lexical this! In JavaScript, every function brings its own `this` context. In complex JavaScript applications, this can become very confusing, very quickly when you have functions inside of functions inside of functions.
 
-Fat arrow notation (arrow functions) creates a lexical `this`, so it passes the lexical scope of `this` into the fucnction which is created.
+Fat arrow notation (arrow functions) creates a lexical `this`, so it passes the lexical scope of `this` into the function which is created.
 
 Lets say you are created a function for the nintendo character, Mario. And in that function you have the number of lives, and a function to add new lives to Mario.
 
