@@ -49,7 +49,7 @@ Here, we compile whatever HTML is inside of the template script tag and then app
 ```js
 var data = {
   name: "Jason Schmitt",
-  age: 30,
+  age: 13,
   job: "Front end web developer",
   location: "New York"
 };
@@ -74,7 +74,7 @@ var data = {
   updates: [
     {
       name: "Jason Schmitt",
-      age: 30,
+      age: 13,
       job: "Front end web developer",
       location: "New York"
     },
