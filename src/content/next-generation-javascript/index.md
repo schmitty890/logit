@@ -3,8 +3,6 @@ title: "Next Generation Javascript"
 date: "2019-05-04"
 ---
 
-#### Variables
-
 Diving into `let` and `const`. Let and const are different ways of creating variables. `var` is the traditional way of creating variables in javascript. With es6, `let` and `const` were introduced. `let` is the new `var`, use `const` when you want to apply something with a constant value that does not change.
 
 ```js
